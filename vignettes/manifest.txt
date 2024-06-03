@@ -1,2 +1,3 @@
-visium_10x
-nonspatial
+# visium_10x
+# nonspatial
+visium_10x_spatial

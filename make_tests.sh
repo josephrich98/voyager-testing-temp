@@ -1,9 +1,10 @@
 #!/bin/bash
 
+# set -x  #!
 set -e
-CWD="$(dirname $0)"
+CWD="/workspace"  #!!! "$(dirname $0)"
 
-export PYTHONPATH="$(dirname $0):$PYTHONPATH"
+export PYTHONPATH="/workspace:$PYTHONPATH"  #!!! PYTHONPATH="$(dirname $0):$PYTHONPATH"
 export RPATH="$(dirname $0)"
 
 PROGRAM_1="Rscript"

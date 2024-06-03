@@ -9,8 +9,8 @@
 
 init.dirs <- function() {
 	args <- R.utils::commandArgs(trailingOnly = TRUE, asValues=TRUE)
-	is.primary <- args$primary
-	root.dir <- args$dir
+	is.primary <- args$primary # args$primary  # TRUE  
+	root.dir <- args$dir # args$dir  # "/workspace/vignettes/visium_10x_spatial"
 
 	if (is.null(args$q)){
 		args$q <- FALSE
